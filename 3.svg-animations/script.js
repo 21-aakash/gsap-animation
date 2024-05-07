@@ -33,7 +33,7 @@ string.addEventListener("mouseleave", (dets)=>{
     gsap.to("svg path ", {
 
              attr: {d:finalpath},           //attr help sto change the attributes of element sin gsap 
-               duration:1.5,
+               duration:1,
                ease: "elastic.out(1, 0, 2)",
 
 
